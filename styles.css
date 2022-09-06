@@ -742,11 +742,13 @@ a:hover {
   /* Caption text */
   .text {
     color: #f2f2f2;
+    background-color: #006989;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
+    opacity: 0.85;
     text-align: center;
   }
   
