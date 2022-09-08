@@ -802,6 +802,7 @@ a:hover {
 
 .layout {
     background-color: #FEE9E1;
+    font-size: 0.5em;
 }
 
 
@@ -817,7 +818,7 @@ img {
 
 main {
     border-bottom: 1px black solid;
-    font-size: 1.12rem;
+    font-size: 0.9rem;
 }
 
 .mainSection {
@@ -829,6 +830,12 @@ main {
 .items{
     width: 75%;
 }
+
+/* .contentText {
+  background-color: #fff;
+  opacity: 0.85;
+  
+} */
 
 @media (max-width: 600px) {
     .items {
@@ -842,6 +849,7 @@ main {
 .mainSection {
     width: 100%;
     flex-direction: column;
+    font-size: 1.12rem;
     
 }
 }
@@ -878,12 +886,16 @@ main {
 
 
 
-footer {
-    background-color: #FEE9E1;
+.footer {
+    text-align: center;
+    background-color: #4BBDC5;
+    align-items: center;
 }
+
 
 .footerMenu {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    gap: 10%;
 }
