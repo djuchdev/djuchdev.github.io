@@ -105,7 +105,7 @@ body {
 }
 
 .menu-items a:hover {
-  color: #117964;
+  color: #006989;
   transition: color 0.3s ease-in-out;
 }
 
@@ -692,6 +692,21 @@ nav {
     }
 }
 
+a.patient-links:link {
+  color: white;
+  text-decoration: none;
+}
+
+a.patient-links:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a.patient-links:hover {
+  color: #4BBDC5;
+  text-decoration: none;
+}
+
 a:link {
     color: black;
     text-decoration: none;
@@ -705,6 +720,8 @@ a:visited {
 a:hover {
     color: white;
     }
+
+   
 
 
 
@@ -830,14 +847,10 @@ main {
 
 .contentText {
   margin-top: 1%;
-  /* background-color: #fff;
-  border-radius: 10%;
-  opacity: 0.85; */
   color: #f2f2f2;
   background-color: #006989;
   font-size: 15px;
   padding: 8px 12px;
-/* border-radius: 10px; */
   bottom: 8px;
   width: 100%;
   
@@ -851,15 +864,16 @@ main {
 
 }
 
-.fade-in-text {
-  
+.fade-in-text { 
   animation: fadeIn 5s;
 }
 
-/* .fade-in-text:hover {
-  opacity: 100%;
-  transition: opacity 1s;
-} */
+.patientItems {
+  display: flex;
+  /* justify-content: center; */
+  gap: 2%;
+}
+
 
 @keyframes fadeIn {
   0% { opacity: 0; }
