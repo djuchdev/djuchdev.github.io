@@ -6,6 +6,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a.phone-white:link {
+  color: white;
+}
+
+  a.phone-white:visited {
+    color: white;
+  }
+
+  a.phone-white:hover {
+    color: white;
+  }
 
 /***** CSS MENU *****/
 
@@ -692,17 +703,7 @@ nav {
     }
 }
 
-a.phone-white:link {
-  color: white;
-}
 
-  a.phone-white:visited {
-    color: white;
-  }
-
-  a.phone-white:hover {
-    color: white;
-  }
 
 a.patient-links:link {
   color: white;
