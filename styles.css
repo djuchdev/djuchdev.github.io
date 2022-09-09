@@ -948,9 +948,7 @@ main {
 
 /***** FOOTER *****/
 
-/* .footer-logo {
-  width: 30%;
-} */
+
 
 .footerContainer {
   display: flex;
@@ -1013,8 +1011,3 @@ font-size: 1.25rem;
       
   }
 
-  /* @media (min-width: 600px) {
-    .address {
-        font-size: 2rem;
-        
-    } */
