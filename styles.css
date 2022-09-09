@@ -683,9 +683,7 @@ nav {
 
 }
 
-/* .logo {
-    width: 100%;
-} */
+
 
 @media (max-width: 800px) {
     .siteMenu {
@@ -705,8 +703,7 @@ a:visited {
 }
 
 a:hover {
-    background-color: black;
-    color: aqua;
+    color: white;
     }
 
 
