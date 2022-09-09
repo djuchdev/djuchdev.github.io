@@ -692,6 +692,18 @@ nav {
     }
 }
 
+a.phone-white:link {
+  color: white;
+}
+
+  a.phone-white:visited {
+    color: white;
+  }
+
+  a.phone-white:hover {
+    color: white;
+  }
+
 a.patient-links:link {
   color: white;
   text-decoration: none;
@@ -873,8 +885,6 @@ main {
   gap: 2%;
 }
 
-a[href^="tel:"].phone-white {
-  color: white;
 
 
 @keyframes fadeIn {
