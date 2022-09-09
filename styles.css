@@ -870,9 +870,11 @@ main {
 
 .patientItems {
   display: flex;
-  /* justify-content: center; */
   gap: 2%;
 }
+
+a[href^="tel:"].phone-white {
+  color: white;
 
 
 @keyframes fadeIn {
